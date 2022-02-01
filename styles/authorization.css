@@ -1,0 +1,95 @@
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/WhiteTheme.png");
+    background-position: center;
+    height: 98vh;
+}
+@media (min-width: 360px ) {
+    body{
+        min-width: 350px;
+    }
+    #regForm input, button
+    {
+        min-width: 200px;
+        min-height: 10px;
+    }
+}
+@media (min-width: 740px) {
+    body{
+        min-width: 720px;
+    }
+    #regForm input, button
+    {
+        min-width: 200px;
+        min-height: 10px;
+    }
+}
+@media (min-width: 992px) {
+    body{
+        min-width: 960px;
+    }
+    #regForm input, button
+    {
+        min-width: 300px;
+        min-height: 15px;
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        min-width: 1140px;
+    }
+    #regForm input, button
+    {
+        min-width: 300px;
+        min-height: 20px;
+    }
+}
+@media (min-width: 1400px) {
+    body{
+        min-width: 1320px;
+    }
+    #regForm input, button
+    {
+        min-width: 350px;
+        min-height: 25px;
+    }
+}
+@media (min-width: 1920px) {
+    body{
+        min-width: 1840px;
+    }
+    #regForm input, button
+    {
+        min-width: 350px;
+        min-height: 25px;
+    }
+}
+#regForm
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#regForm input{
+    border: none;
+    background-color: #eeeeee;
+    border-bottom: 2px solid grey;
+    outline: none;
+    color: grey;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+#regForm button
+{
+    border: none;
+    border-bottom: 2px solid grey;
+    color: grey;
+    padding: 10px;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
